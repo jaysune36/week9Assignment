@@ -1,101 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-</head>
-<body>
-  <header>
-    <h1>My Top Lizards to Own</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="index_2.html">Meet the Lizards</a></li>
-          <li><a href="index_3.html">Favorite Lizard</a></li>
-        </ul>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  </head>
+  <body>
+    <header class="text-center">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Top Lizards to Own</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index_2.html">Meet the Lizards</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index_3.html">Favorite Lizard</a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
-  </header>
-  <main>
-    <div>
-    <h2>Why Lizards are great pets?</h2>
-    <p>Although terrifying to look at, some lizards have some of the best and friendlist personalities. They are curious and love to be pet, with caution, and love to eat. They can be lazy and just love to sit in the sun all day without a care in the world. They can also be easy to talk to and if trained properly can be a great companion.</p>
-    </div>
-    <div>
-      <h3>Lizard Types, Size, and Care</h3>
-      <table>
-        <thead>
-          <tr>
-            <th>Name:</th>
-            <th>Bearded Dragon</th>
-            <th>Iguana</th>
-            <th>Leopard Gecko</th>
-            <th>Black and White Tegu</th>
-            <th>Uromastyx</th>
-            <th>Blue-tongued Skink</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Average Size</td>
-            <td>16-24 Inches</td>
-            <td>4-6 Feet</td>
-            <td>7-8 Inches</td>
-            <td>2.5-4 Feet</td>
-            <td>10-18 Inches</td>
-            <td>19 Inches</td>
-          </tr>
-          <tr>
-            <td>Ideal Warm Temps</td>
-            <td>90-93&deg; F</td>
-            <td>80-88&deg; F</td>
-            <td>80-85&deg; F</td>
-            <td>80-90&deg; F</td>
-            <td>90-10&deg; F</td>
-            <td>80-85&deg; F</td>
-          </tr>
-          <tr>
-            <td>Ideal Cool Temps</td>
-            <td>80-90&deg; F</td>
-            <td>75-80&deg; F</td>
-            <td>75-80&deg; F</td>
-            <td>Around 70&deg; F</td>
-            <td>80-85&deg; F</td>
-            <td>75-80&deg; F</td>
-          </tr>
-          <tr>
-            <td>Basking Temps</td>
-            <td>100-110&deg; F</td>
-            <td>92-95&deg; F</td>
-            <td>90-95&deg; F</td>
-            <td>100-135&deg; F</td>
-            <td>110-120&deg; F</td>
-            <td>90-95&deg; F</td>
-          </tr>
-          <tr>
-            <td>Humidity</td>
-            <td>Low: 35-40%</td>
-            <td>High: 70-80%</td>
-            <td>Low: 30-40%</td>
-            <td>High: 60-80%</td>
-            <td>Low: 20-30%</td>
-            <td>High: 60-80%</td>
-          </tr>
-          <tr>
-            <td>Diet</td>
-            <td>Omnivore</td>
-            <td>Herbivore/Ominvore</td>
-            <td>Carnivore</td>
-            <td>Omnivore</td>
-            <td>Ominvore(High Veggie/Low Insect)</td>
-            <td>Ominvore</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    </header>
+    <main class="container">
+      <div class="mt-5">
+        <h2>Why Lizards are great pets?</h2>
+        <p>Although some might think they are terrifying to look at, some lizards have some of the best and friendlist personalities. They are curious and love to be pet, with caution, and love to eat. They can be lazy and just love to sit in the sun all day without a care in the world. They can also be easy to talk to and if trained properly can be a great companion.</p>
+      </div>
+      <h3 class="mt-5">Lizard Types, Size, and Care</h3>
+      <div class="table-responsive mt-3 mb-5">
+        <table class="table">
+          <thead class="table-light">
+            <tr>
+              <th>Name:</th>
+              <th>Bearded Dragon</th>
+              <th>Iguana</th>
+              <th>Leopard Gecko</th>
+              <th>Black and White Tegu</th>
+              <th>Uromastyx</th>
+              <th>Blue-tongued Skink</th>
+            </tr>
+          </thead>
+          <tbody class="table-group-divider">
+            <tr>
+              <td>Average Size</td>
+              <td>16-24 Inches</td>
+              <td>4-6 Feet</td>
+              <td>7-8 Inches</td>
+              <td>2.5-4 Feet</td>
+              <td>10-18 Inches</td>
+              <td>19 Inches</td>
+            </tr>
+            <tr>
+              <td>Ideal Warm Temps</td>
+              <td>90-93&deg; F</td>
+              <td>80-88&deg; F</td>
+              <td>80-85&deg; F</td>
+              <td>80-90&deg; F</td>
+              <td>90-10&deg; F</td>
+              <td>80-85&deg; F</td>
+            </tr>
+            <tr>
+              <td>Ideal Cool Temps</td>
+              <td>80-90&deg; F</td>
+              <td>75-80&deg; F</td>
+              <td>75-80&deg; F</td>
+              <td>Around 70&deg; F</td>
+              <td>80-85&deg; F</td>
+              <td>75-80&deg; F</td>
+            </tr>
+            <tr>
+              <td>Basking Temps</td>
+              <td>100-110&deg; F</td>
+              <td>92-95&deg; F</td>
+              <td>90-95&deg; F</td>
+              <td>100-135&deg; F</td>
+              <td>110-120&deg; F</td>
+              <td>90-95&deg; F</td>
+            </tr>
+            <tr>
+              <td>Humidity</td>
+              <td>Low: 35-40%</td>
+              <td>High: 70-80%</td>
+              <td>Low: 30-40%</td>
+              <td>High: 60-80%</td>
+              <td>Low: 20-30%</td>
+              <td>High: 60-80%</td>
+            </tr>
+            <tr>
+              <td>Diet</td>
+              <td>Omnivore</td>
+              <td>Herbivore/Ominvore</td>
+              <td>Carnivore</td>
+              <td>Omnivore</td>
+              <td>Ominvore(High Veggie/Low Insect)</td>
+              <td>Ominvore</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
 
-  </main>
-  <script src="node_modules/jquery/dist/jquery.js"></script>
-</body>
+    </main>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+  </body>
 </html>
